@@ -22,7 +22,7 @@ An interactive troubleshooting guide for Pearson POP LAN customers. This guide h
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/beckletts/POPPAL.git
 ```
 
 2. Install dependencies:
@@ -59,4 +59,4 @@ The application will be available at `http://localhost:3000` (or another port if
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details. # POPerrorguide
