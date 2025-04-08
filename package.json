@@ -1,0 +1,37 @@
+{
+  "name": "pop-error-guide",
+  "version": "1.0.0",
+  "description": "Pearson POP Troubleshooting Guide",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/js -d dist/js",
+    "watch": "babel src/js -d dist/js --watch",
+    "start": "npm run build && serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckletts/POPPAL.git"
+  },
+  "keywords": [
+    "pearson",
+    "pop",
+    "troubleshooting",
+    "guide"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beckletts/POPPAL/issues"
+  },
+  "homepage": "https://github.com/beckletts/POPPAL#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
